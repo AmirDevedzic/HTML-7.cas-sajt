@@ -1,0 +1,157 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper{
+    width: 960px;
+    padding: 15px;
+    margin: auto;
+    background-color: #fff;
+    
+    
+}
+
+#header{
+    background-color: #C51417;
+    padding: 10px;
+}
+
+#header p{
+    float: right;
+    color: #fff;
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#nav{
+    background-color: #333333;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+#nav li a:hover{
+    cursor: pointer;
+    background-color: #C51417;
+}
+
+.social-links{
+    font-size: 23px;
+    color: #fff;
+    float: right;
+    padding: 5px 10px 5px 0px;
+}
+
+.social-icon{
+    color: #fff;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.social-icon:hover{
+    cursor: pointer;
+    color: #C51417;
+}
+
+#main{
+    width: 700px;
+    float: left;
+}
+
+#sidebar{
+    width: 240px;
+    overflow: hidden;
+    background-color: #fff;
+    float: right;
+}
+
+#sidebar-tittle{
+    background-color: #BBBBBB;
+    color: #fff;
+    padding: 5px;
+}
+
+#footer{
+    background-color: #333333;
+    padding: 10px;
+    clear: both;
+}
+
+#footer p{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.forms{
+    max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.field{
+	width: 50%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 15px;
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	height: 100px;
+}
+
+.btn{
+	width: 55%;
+	padding: 10px;
+	background-color: #333333;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+    background-color: #C51417;
+    transition-duration: 0.3s;
+}
+
+
+
